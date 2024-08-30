@@ -198,6 +198,22 @@ body {
 /* product container and grid */
 
 
+@media (max-width: 576px) {
+
+:root {
+
+    --font-size:14px;
+
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+}
 
 
 
+
+
+
+}
