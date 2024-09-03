@@ -23,7 +23,6 @@
 }
 
 .main-category-card h4 {
-    font-size: 14px;
     font-weight: 400;
     margin:0;
     line-height: 1.5em;
@@ -74,6 +73,51 @@
   
   .next {
     right: -70px;
+  }
+
+  @media (max-width: 576px) {
+
+    .prev, .next {
+        display: none;
+    }
+
+
+
+
+    .main-category-area {
+        padding: 20px 0px;
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    .main-category-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .main-category-card img{
+        width: 100%;
+        /* height: 140px; */
+        object-fit: contain;
+    }
+
+    .main-category-card h4 {
+        font-weight: 400;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+  
+
+    
+   
+
+
+
   }
 
 
