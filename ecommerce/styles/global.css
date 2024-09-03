@@ -211,7 +211,7 @@ body {
     margin: 0 auto;
 }
 
-header .container, main, .footer-info-container, .footer-bg{
+header .container, main, .footer-info-container, .footer-bg, .rights .container{
     padding:0 5%;
 }
 
